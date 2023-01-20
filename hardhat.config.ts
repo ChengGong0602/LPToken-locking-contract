@@ -8,6 +8,6 @@ module.exports = {
     goerli: {
       url: `${process.env.ALCHEMY_GOERLI_URL}`,
       accounts: [`0x${process.env.GOERLI_PRIVATE_KEY}`],
-    } 
+    }
   }
 };

@@ -4,7 +4,7 @@ async function main() {
   
 
 
-  const TokenLock = await ethers.getContractFactory("TokenLock");
+  const TokenLock = await ethers.getContractFactory("SmartLock");
   const lock = await TokenLock.deploy();
 
   await lock.deployed();
